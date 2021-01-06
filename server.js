@@ -20,7 +20,7 @@ app.use(express.static("public"));
 app.use(require("./routes/api.js"));
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb+srv://kirk-admin:Bom106132@cluster0.5dqd4.mongodb.net/wokrout?retryWrites=true&w=majority', {
+    process.env.MONGODB_URI || 'mongodb+srv://kirk-admin:Bom106132@cluster0.5dqd4.mongodb.net/budget?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
